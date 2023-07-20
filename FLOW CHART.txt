@@ -1,0 +1,26 @@
+Start
+├─ Import CSV Data 1 Button Clicked
+│ ├─ Open File Dialog
+│ ├─ Store File Path in file_path1
+│ └─ Refresh Data
+│ ├─ Load Data 1
+│ │ └─ Read CSV Data 1
+│ ├─ Load Data 2
+│ │ └─ Read CSV Data 2
+│ └─ Wait 1 Second
+├─ Import CSV Data 2 Button Clicked
+│ ├─ Open File Dialog
+│ ├─ Store File Path in file_path2
+│ └─ Refresh Data
+│ ├─ Load Data 1
+│ │ └─ Read CSV Data 1
+│ ├─ Load Data 2
+│ │ └─ Read CSV Data 2
+│ └─ Wait 1 Second
+└─ Main Loop
+├─ Load Data 1
+│ └─ Read CSV Data 1
+├─ Load Data 2
+│ └─ Read CSV Data 2
+└─ Wait 1 Second
+End

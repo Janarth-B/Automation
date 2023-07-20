@@ -1,0 +1,34 @@
+       1. Start 
+       2. Create two global variables for file paths: `file_path1` and `file_path2` 
+       3. Define the function `import_csv_data1`: 
+        - Open a file dialog to select a CSV file 
+        - If a file is selected: 
+        - Assign the file path to `file_path1` 
+        - Call the function `load_data1` 
+      4. Define the function `import_xls_data2`: 
+       - Open a file dialog to select an XLS file 
+       - If a file is selected: 
+       - Assign the file path to `file_path2` 
+       - Call the function `load_data2` 
+     5. Define the function `load_data1`: 
+       - Read the CSV file using the file path stored in `file_path1` 
+       - Display the data in the left tree view 
+       - Prevent the left frame from resizing 
+     6. Define the function `load_data2`: 
+       - Read the XLS file using the file path stored in `file_path2` 
+       - Display the data in the right tree view 
+       - Prevent the right frame from resizing 
+     7. Define the function `display_data`: 
+      - Clear the existing data in the tree view 
+      - Set the columns and headings in the tree view based on the DataFrame columns 
+      - Insert the rows from the DataFrame into the tree view 
+     8. Create the root Tkinter window 
+     9. Create the left frame for the left tree view 
+    10. Create the right frame for the right tree view 
+    11. Create the left tree view 
+    12. Create the right tree view 
+    13. Add a vertical scrollbar to the left tree view 
+    14. Add a vertical scrollbar to the right tree view 
+    15. Create the "Import CSV Data 1" button 
+    16. Create the "Import XLS Data 2" button 
+    17. Start the Tkinter event loop (mainloop)
